@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "source": "WohnMarkt Gemeinde-API (fiktiv)",
+    "endpoint": "GET /v2/municipalities?fields=population,tax_multiplier",
+    "retrieved": "2026-09-20",
+    "count": 7
+  },
+  "municipalities": [
+    {
+      "zip": 8001,
+      "name": "Zürich",
+      "canton": "ZH",
+      "population": 427000,
+      "tax_multiplier_pct": 119
+    },
+    {
+      "zip": 8400,
+      "name": "Winterthur",
+      "canton": "ZH",
+      "population": 120000,
+      "tax_multiplier_pct": 125
+    },
+    {
+      "zip": 3011,
+      "name": "Bern",
+      "canton": "BE",
+      "population": 146000,
+      "tax_multiplier_pct": 154
+    },
+    {
+      "zip": 4051,
+      "name": "Basel",
+      "canton": "BS",
+      "population": 175000,
+      "tax_multiplier_pct": 100
+    },
+    {
+      "zip": 6003,
+      "name": "Luzern",
+      "canton": "LU",
+      "population": 83000,
+      "tax_multiplier_pct": 175
+    },
+    {
+      "zip": 9000,
+      "name": "St. Gallen",
+      "canton": "SG",
+      "population": 77000,
+      "tax_multiplier_pct": 138
+    },
+    {
+      "zip": 2502,
+      "name": "Biel/Bienne",
+      "canton": "BE",
+      "population": 56000,
+      "tax_multiplier_pct": 163
+    }
+  ]
+}

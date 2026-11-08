@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+<head>
+  <meta charset="utf-8">
+  <title>Mietwohnungen Schweiz – Seite 1 | WohnMarkt</title>
+  <style>
+    body { font-family: Arial, Helvetica, sans-serif; margin: 0; background: #f4f6f4; color: #1d1d1f; }
+    header { background: #1f5f3f; color: #fff; padding: 12px 24px; display: flex; justify-content: space-between; }
+    header a { color: #fff; margin-left: 16px; text-decoration: none; }
+    .results { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; padding: 24px; }
+    .listing { background: #fff; border-radius: 8px; padding: 16px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
+    .listing h2 { font-size: 16px; margin: 0 0 8px 0; }
+    .facts span { display: inline-block; margin-right: 10px; font-size: 13px; color: #444; }
+    .rent { font-size: 18px; font-weight: bold; color: #1f5f3f; }
+    .address, .available, .provider { font-size: 12px; color: #666; display: block; }
+    .pagination { padding: 0 24px 24px 24px; }
+    footer { background: #222; color: #aaa; padding: 16px 24px; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">WohnMarkt</div>
+    <nav><a href="/">Home</a><a href="/mieten">Mieten</a><a href="/kaufen">Kaufen</a><a href="/inserieren">Inserieren</a></nav>
+  </header>
+  <h1 style="padding: 0 24px;">Mietwohnungen <small>(180 Inserate, neueste zuerst)</small></h1>
+  <section class="results">
+      <article class="listing" data-listing-id="WM-20001">
+        <h2 class="title"><a href="/inserat/WM-20001">Renovierte 5.5-Zimmer-Wohnung mit Seesicht</a></h2>
+        <div class="facts">
+          <span class="rooms">5.5&nbsp;Zimmer</span>
+          <span class="area">122&nbsp;m²</span>
+          <span class="floor">3. OG</span>
+        </div>
+        <span class="address">Kirchweg 48, <span class="zip">8400</span> <span class="town">Winterthur</span></span>
+        <div class="price"><span class="rent">CHF 2'570.– / Monat</span></div>
+        <span class="available">Bezug: sofort</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20002">
+        <h2 class="title"><a href="/inserat/WM-20002">Moderne 3.5-Zimmer-Wohnung mit Seesicht</a></h2>
+        <div class="facts">
+          <span class="rooms">3.5&nbsp;Zimmer</span>
+          <span class="area">k.A.</span>
+          <span class="floor">1. OG</span>
+        </div>
+        <span class="address">Wiesenweg 6, <span class="zip">8001</span> <span class="town">Zürich</span></span>
+        <div class="price"><span class="rent">CHF 3'300.– / Monat</span></div>
+        <span class="available">Bezug: sofort</span>
+        <span class="provider">Anbieter: Privat</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20003">
+        <h2 class="title"><a href="/inserat/WM-20003">Renovierte 3.5-Zimmer-Wohnung mit Lift</a></h2>
+        <div class="facts">
+          <span class="rooms">3.5&nbsp;Zimmer</span>
+          <span class="area">89&nbsp;m²</span>
+          <span class="floor">2. OG</span>
+        </div>
+        <span class="address">Rosenweg 27, <span class="zip">2502</span> <span class="town">Biel/Bienne</span></span>
+        <div class="price"><span class="rent">CHF 18'600.– / Monat</span></div>
+        <span class="available">Bezug: sofort</span>
+        <span class="provider">Anbieter: Privat</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20004">
+        <h2 class="title"><a href="/inserat/WM-20004">Gemütliche 2.5-Zimmer-Wohnung mit Gartensitzplatz</a></h2>
+        <div class="facts">
+          <span class="rooms">2.5&nbsp;Zimmer</span>
+          <span class="area">68&nbsp;m²</span>
+          <span class="floor">1. OG</span>
+        </div>
+        <span class="address">Schulstrasse 63, <span class="zip">3011</span> <span class="town">Bern</span></span>
+        <div class="price"><span class="rent">CHF 1'550.– / Monat</span></div>
+        <span class="available">Bezug: ab 01.11.2026</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20005">
+        <h2 class="title"><a href="/inserat/WM-20005">Renovierte 3.5-Zimmer-Wohnung mit Balkon</a></h2>
+        <div class="facts">
+          <span class="rooms">3.5&nbsp;Zimmer</span>
+          <span class="area">83&nbsp;m²</span>
+          <span class="floor">1. OG</span>
+        </div>
+        <span class="address">Industriestrasse 25, <span class="zip">6003</span> <span class="town">Luzern</span></span>
+        <div class="price"><span class="rent">CHF 2'100.– / Monat</span></div>
+        <span class="available">Bezug: ab 01.11.2026</span>
+        <span class="provider">Anbieter: Privat</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20006">
+        <h2 class="title"><a href="/inserat/WM-20006">Helle 3.5-Zimmer-Wohnung mit Lift</a></h2>
+        <div class="facts">
+          <span class="rooms">3.5&nbsp;Zimmer</span>
+          <span class="area">83&nbsp;m²</span>
+          <span class="floor">DG</span>
+        </div>
+        <span class="address">Kirchweg 98, <span class="zip">3011</span> <span class="town">Bern</span></span>
+        <div class="price"><span class="rent">CHF 1'900.– / Monat</span></div>
+        <span class="available">Bezug: sofort</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20007">
+        <h2 class="title"><a href="/inserat/WM-20007">Gemütliche 1.5-Zimmer-Wohnung mit Gartensitzplatz</a></h2>
+        <div class="facts">
+          <span class="rooms">1.5&nbsp;Zimmer</span>
+          <span class="area">48&nbsp;m²</span>
+          <span class="floor">2. OG</span>
+        </div>
+        <span class="address">Rosenweg 53, <span class="zip">8200</span> <span class="town">Schaffhausen</span></span>
+        <div class="price"><span class="rent">CHF 820.– / Monat</span></div>
+        <span class="available">Bezug: ab 01.01.2027</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20008">
+        <h2 class="title"><a href="/inserat/WM-20008">Grosszügige 3.5-Zimmer-Wohnung mit Balkon</a></h2>
+        <div class="facts">
+          <span class="rooms">3.5&nbsp;Zimmer</span>
+          <span class="area">81&nbsp;m²</span>
+          <span class="floor">3. OG</span>
+        </div>
+        <span class="address">Seestrasse 85, <span class="zip">3011</span> <span class="town">Bern</span></span>
+        <div class="price"><span class="rent">CHF 1'740.– / Monat</span></div>
+        <span class="available">Bezug: ab 01.02.2027</span>
+        <span class="provider">Anbieter: Privat</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20009">
+        <h2 class="title"><a href="/inserat/WM-20009">Renovierte 3.5-Zimmer-Wohnung mit Balkon</a></h2>
+        <div class="facts">
+          <span class="rooms">3.5&nbsp;Zimmer</span>
+          <span class="area">89&nbsp;m²</span>
+          <span class="floor">1. OG</span>
+        </div>
+        <span class="address">Seestrasse 50, <span class="zip">6003</span> <span class="town">Luzern</span></span>
+        <div class="price"><span class="rent">CHF 2'660.– / Monat</span></div>
+        <span class="available">Bezug: ab 01.01.2027</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20010">
+        <h2 class="title"><a href="/inserat/WM-20010">Ruhige 1.5-Zimmer-Wohnung mit Lift</a></h2>
+        <div class="facts">
+          <span class="rooms">1.5&nbsp;Zimmer</span>
+          <span class="area">45&nbsp;m²</span>
+          <span class="floor">1. OG</span>
+        </div>
+        <span class="address">Bahnhofstrasse 44, <span class="zip">4051</span> <span class="town">Basel</span></span>
+        <div class="price"><span class="rent">CHF 1'110.– / Monat</span></div>
+        <span class="available">Bezug: sofort</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20011">
+        <h2 class="title"><a href="/inserat/WM-20011">Ruhige 3.5-Zimmer-Wohnung im Altbau</a></h2>
+        <div class="facts">
+          <span class="rooms">3.5&nbsp;Zimmer</span>
+          <span class="area">92&nbsp;m²</span>
+          <span class="floor">1. OG</span>
+        </div>
+        <span class="address">Schulstrasse 116, <span class="zip">6003</span> <span class="town">Luzern</span></span>
+        <div class="price"><span class="rent">CHF 2'660.– / Monat</span></div>
+        <span class="available">Bezug: ab 01.02.2027</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20012">
+        <h2 class="title"><a href="/inserat/WM-20012">Moderne 3.5-Zimmer-Wohnung im Altbau</a></h2>
+        <div class="facts">
+          <span class="rooms">3.5&nbsp;Zimmer</span>
+          <span class="area">75&nbsp;m²</span>
+          <span class="floor">3. OG</span>
+        </div>
+        <span class="address">Dorfstrasse 78, <span class="zip">8001</span> <span class="town">Zürich</span></span>
+        <div class="price"><span class="rent">CHF 2'480.– / Monat</span></div>
+        <span class="available">Bezug: sofort</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20013">
+        <h2 class="title"><a href="/inserat/WM-20013">Ruhige 3.5-Zimmer-Wohnung mit Seesicht</a></h2>
+        <div class="facts">
+          <span class="rooms">3.5&nbsp;Zimmer</span>
+          <span class="area">90&nbsp;m²</span>
+          <span class="floor">2. OG</span>
+        </div>
+        <span class="address">Schulstrasse 90, <span class="zip">8200</span> <span class="town">Schaffhausen</span></span>
+        <div class="price"><span class="rent">CHF 1'600.– / Monat</span></div>
+        <span class="available">Bezug: ab 01.02.2027</span>
+        <span class="provider">Anbieter: Privat</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20014">
+        <h2 class="title"><a href="/inserat/WM-20014">Gemütliche 3.5-Zimmer-Wohnung nahe Bahnhof</a></h2>
+        <div class="facts">
+          <span class="rooms">3.5&nbsp;Zimmer</span>
+          <span class="area">81&nbsp;m²</span>
+          <span class="floor">2. OG</span>
+        </div>
+        <span class="address">Industriestrasse 59, <span class="zip">3011</span> <span class="town">Bern</span></span>
+        <div class="price"><span class="rent">CHF 1'830.– / Monat</span></div>
+        <span class="available">Bezug: ab 01.12.2026</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20015">
+        <h2 class="title"><a href="/inserat/WM-20015">Renovierte 4.5-Zimmer-Wohnung mit Seesicht</a></h2>
+        <div class="facts">
+          <span class="rooms">4.5&nbsp;Zimmer</span>
+          <span class="area">100&nbsp;m²</span>
+          <span class="floor">DG</span>
+        </div>
+        <span class="address">Bergstrasse 110, <span class="zip">8001</span> <span class="town">Zürich</span></span>
+        <div class="price"><span class="rent">CHF 3'330.– / Monat</span></div>
+        <span class="available">Bezug: sofort</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20016">
+        <h2 class="title"><a href="/inserat/WM-20016">Zentrale 5.5-Zimmer-Wohnung mit Lift</a></h2>
+        <div class="facts">
+          <span class="rooms">5.5&nbsp;Zimmer</span>
+          <span class="area">133&nbsp;m²</span>
+          <span class="floor">EG</span>
+        </div>
+        <span class="address">Industriestrasse 13, <span class="zip">9000</span> <span class="town">St. Gallen</span></span>
+        <div class="price"><span class="rent">CHF 25'320.– / Monat</span></div>
+        <span class="available">Bezug: sofort</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20017">
+        <h2 class="title"><a href="/inserat/WM-20017">Gemütliche 4.5-Zimmer-Wohnung im Altbau</a></h2>
+        <div class="facts">
+          <span class="rooms">4.5&nbsp;Zimmer</span>
+          <span class="area">115&nbsp;m²</span>
+          <span class="floor">3. OG</span>
+        </div>
+        <span class="address">Hauptstrasse 108, <span class="zip">8400</span> <span class="town">Winterthur</span></span>
+        <div class="price"><span class="rent">CHF 2'830.– / Monat</span></div>
+        <span class="available">Bezug: ab 01.12.2026</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20018">
+        <h2 class="title"><a href="/inserat/WM-20018">Charmante 4.5-Zimmer-Wohnung nahe Bahnhof</a></h2>
+        <div class="facts">
+          <span class="rooms">4.5&nbsp;Zimmer</span>
+          <span class="area">103&nbsp;m²</span>
+          <span class="floor">EG</span>
+        </div>
+        <span class="address">Kirchweg 40, <span class="zip">4051</span> <span class="town">Basel</span></span>
+        <div class="price"><span class="rent">CHF 2'530.– / Monat</span></div>
+        <span class="available">Bezug: ab 01.12.2026</span>
+        <span class="provider">Anbieter: Privat</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20019">
+        <h2 class="title"><a href="/inserat/WM-20019">Moderne 1.5-Zimmer-Wohnung</a></h2>
+        <div class="facts">
+          <span class="rooms">1.5&nbsp;Zimmer</span>
+          <span class="area">52&nbsp;m²</span>
+          <span class="floor">3. OG</span>
+        </div>
+        <span class="address">Lindenweg 66, <span class="zip">3011</span> <span class="town">Bern</span></span>
+        <div class="price"><span class="rent">CHF 1'270.– / Monat</span></div>
+        <span class="available">Bezug: ab 01.02.2027</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20020">
+        <h2 class="title"><a href="/inserat/WM-20020">Ruhige 1.5-Zimmer-Wohnung nahe Bahnhof</a></h2>
+        <div class="facts">
+          <span class="rooms">1.5&nbsp;Zimmer</span>
+          <span class="area">46&nbsp;m²</span>
+          <span class="floor">1. OG</span>
+        </div>
+        <span class="address">Rosenweg 117, <span class="zip">9000</span> <span class="town">St. Gallen</span></span>
+        <div class="price"><span class="rent">CHF 930.– / Monat</span></div>
+        <span class="available">Bezug: sofort</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20021">
+        <h2 class="title"><a href="/inserat/WM-20021">Zentrale 2.5-Zimmer-Wohnung mit Seesicht</a></h2>
+        <div class="facts">
+          <span class="rooms">2.5&nbsp;Zimmer</span>
+          <span class="area">70&nbsp;m²</span>
+          <span class="floor">1. OG</span>
+        </div>
+        <span class="address">Bahnhofstrasse 38, <span class="zip">2502</span> <span class="town">Biel/Bienne</span></span>
+        <div class="price"><span class="rent">CHF 14'400.– / Monat</span></div>
+        <span class="available">Bezug: sofort</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20022">
+        <h2 class="title"><a href="/inserat/WM-20022">Grosszügige 5.5-Zimmer-Wohnung mit Gartensitzplatz</a></h2>
+        <div class="facts">
+          <span class="rooms">5.5&nbsp;Zimmer</span>
+          <span class="area">134&nbsp;m²</span>
+          <span class="floor">1. OG</span>
+        </div>
+        <span class="address">Bahnhofstrasse 55, <span class="zip">2502</span> <span class="town">Biel/Bienne</span></span>
+        <div class="price"><span class="rent">CHF 2'300.– / Monat</span></div>
+        <span class="available">Bezug: sofort</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20023">
+        <h2 class="title"><a href="/inserat/WM-20023">Renovierte 2.5-Zimmer-Wohnung mit Seesicht</a></h2>
+        <div class="facts">
+          <span class="rooms">2.5&nbsp;Zimmer</span>
+          <span class="area">83&nbsp;m²</span>
+          <span class="floor">DG</span>
+        </div>
+        <span class="address">Wiesenweg 115, <span class="zip">3011</span> <span class="town">Bern</span></span>
+        <div class="price"><span class="rent">CHF 1'640.– / Monat</span></div>
+        <span class="available">Bezug: ab 01.01.2027</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20024">
+        <h2 class="title"><a href="/inserat/WM-20024">Charmante 2.5-Zimmer-Wohnung mit Lift</a></h2>
+        <div class="facts">
+          <span class="rooms">2.5&nbsp;Zimmer</span>
+          <span class="area">63&nbsp;m²</span>
+          <span class="floor">2. OG</span>
+        </div>
+        <span class="address">Gartenstrasse 15, <span class="zip">8001</span> <span class="town">Zürich</span></span>
+        <div class="price"><span class="rent">CHF 1'910.– / Monat</span></div>
+        <span class="available">Bezug: ab 01.02.2027</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20025">
+        <h2 class="title"><a href="/inserat/WM-20025">Charmante 3.5-Zimmer-Wohnung nahe Bahnhof</a></h2>
+        <div class="facts">
+          <span class="rooms">3.5&nbsp;Zimmer</span>
+          <span class="area">k.A.</span>
+          <span class="floor">EG</span>
+        </div>
+        <span class="address">Bahnhofstrasse 26, <span class="zip">6003</span> <span class="town">Luzern</span></span>
+        <div class="price"><span class="rent">CHF 2'210.– / Monat</span></div>
+        <span class="available">Bezug: sofort</span>
+        <span class="provider">Anbieter: Privat</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20026">
+        <h2 class="title"><a href="/inserat/WM-20026">Renovierte 3.5-Zimmer-Wohnung nahe Bahnhof</a></h2>
+        <div class="facts">
+          <span class="rooms">3.5&nbsp;Zimmer</span>
+          <span class="area">89&nbsp;m²</span>
+          <span class="floor">4. OG</span>
+        </div>
+        <span class="address">Bahnhofstrasse 102, <span class="zip">2502</span> <span class="town">Biel/Bienne</span></span>
+        <div class="price"><span class="rent on-request">Miete auf Anfrage</span></div>
+        <span class="available">Bezug: ab 01.02.2027</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20027">
+        <h2 class="title"><a href="/inserat/WM-20027">Renovierte 2.5-Zimmer-Wohnung mit Seesicht</a></h2>
+        <div class="facts">
+          <span class="rooms">2.5&nbsp;Zimmer</span>
+          <span class="area">73&nbsp;m²</span>
+          <span class="floor">3. OG</span>
+        </div>
+        <span class="address">Dorfstrasse 73, <span class="zip">8400</span> <span class="town">Winterthur</span></span>
+        <div class="price"><span class="rent">CHF 1'610.– / Monat</span></div>
+        <span class="available">Bezug: sofort</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20028">
+        <h2 class="title"><a href="/inserat/WM-20028">Gemütliche 4.5-Zimmer-Wohnung mit Gartensitzplatz</a></h2>
+        <div class="facts">
+          <span class="rooms">4.5&nbsp;Zimmer</span>
+          <span class="area">120&nbsp;m²</span>
+          <span class="floor">DG</span>
+        </div>
+        <span class="address">Gartenstrasse 73, <span class="zip">4051</span> <span class="town">Basel</span></span>
+        <div class="price"><span class="rent">CHF 3'410.– / Monat</span></div>
+        <span class="available">Bezug: ab 01.11.2026</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20029">
+        <h2 class="title"><a href="/inserat/WM-20029">Moderne 4.5-Zimmer-Wohnung nahe Bahnhof</a></h2>
+        <div class="facts">
+          <span class="rooms">4.5&nbsp;Zimmer</span>
+          <span class="area">108&nbsp;m²</span>
+          <span class="floor">EG</span>
+        </div>
+        <span class="address">Seestrasse 76, <span class="zip">8001</span> <span class="town">Zürich</span></span>
+        <div class="price"><span class="rent">CHF 3'590.– / Monat</span></div>
+        <span class="available">Bezug: ab 01.01.2027</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20030">
+        <h2 class="title"><a href="/inserat/WM-20030">Moderne 1.5-Zimmer-Wohnung mit Lift</a></h2>
+        <div class="facts">
+          <span class="rooms">1.5&nbsp;Zimmer</span>
+          <span class="area">45&nbsp;m²</span>
+          <span class="floor">3. OG</span>
+        </div>
+        <span class="address">Seestrasse 5, <span class="zip">8001</span> <span class="town">Zürich</span></span>
+        <div class="price"><span class="rent">CHF 1'350.– / Monat</span></div>
+        <span class="available">Bezug: sofort</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20031">
+        <h2 class="title"><a href="/inserat/WM-20031">Zentrale 3.5-Zimmer-Wohnung mit Seesicht</a></h2>
+        <div class="facts">
+          <span class="rooms">3.5&nbsp;Zimmer</span>
+          <span class="area">81&nbsp;m²</span>
+          <span class="floor">1. OG</span>
+        </div>
+        <span class="address">Rosenweg 68, <span class="zip">6003</span> <span class="town">Luzern</span></span>
+        <div class="price"><span class="rent">CHF 2'070.– / Monat</span></div>
+        <span class="available">Bezug: ab 01.02.2027</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20032">
+        <h2 class="title"><a href="/inserat/WM-20032">Charmante 4.5-Zimmer-Wohnung im Altbau</a></h2>
+        <div class="facts">
+          <span class="rooms">4.5&nbsp;Zimmer</span>
+          <span class="area">113&nbsp;m²</span>
+          <span class="floor">2. OG</span>
+        </div>
+        <span class="address">Rosenweg 63, <span class="zip">6003</span> <span class="town">Luzern</span></span>
+        <div class="price"><span class="rent">CHF 2'370.– / Monat</span></div>
+        <span class="available">Bezug: sofort</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20033">
+        <h2 class="title"><a href="/inserat/WM-20033">Charmante 1.5-Zimmer-Wohnung nahe Bahnhof</a></h2>
+        <div class="facts">
+          <span class="rooms">1.5&nbsp;Zimmer</span>
+          <span class="area">51&nbsp;m²</span>
+          <span class="floor">3. OG</span>
+        </div>
+        <span class="address">Kirchweg 3, <span class="zip">2502</span> <span class="town">Biel/Bienne</span></span>
+        <div class="price"><span class="rent">CHF 760.– / Monat</span></div>
+        <span class="available">Bezug: ab 01.11.2026</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20034">
+        <h2 class="title"><a href="/inserat/WM-20034">Moderne 1.5-Zimmer-Wohnung mit Lift</a></h2>
+        <div class="facts">
+          <span class="rooms">1.5&nbsp;Zimmer</span>
+          <span class="area">40&nbsp;m²</span>
+          <span class="floor">DG</span>
+        </div>
+        <span class="address">Hauptstrasse 74, <span class="zip">4051</span> <span class="town">Basel</span></span>
+        <div class="price"><span class="rent on-request">Miete auf Anfrage</span></div>
+        <span class="available">Bezug: sofort</span>
+        <span class="provider">Anbieter: Privat</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20035">
+        <h2 class="title"><a href="/inserat/WM-20035">Zentrale 5.5-Zimmer-Wohnung mit Balkon</a></h2>
+        <div class="facts">
+          <span class="rooms">5.5&nbsp;Zimmer</span>
+          <span class="area">137&nbsp;m²</span>
+          <span class="floor">2. OG</span>
+        </div>
+        <span class="address">Bergstrasse 42, <span class="zip">8001</span> <span class="town">Zürich</span></span>
+        <div class="price"><span class="rent">CHF 4'300.– / Monat</span></div>
+        <span class="available">Bezug: ab 01.01.2027</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20036">
+        <h2 class="title"><a href="/inserat/WM-20036">Helle 2.5-Zimmer-Wohnung im Altbau</a></h2>
+        <div class="facts">
+          <span class="rooms">2.5&nbsp;Zimmer</span>
+          <span class="area">68&nbsp;m²</span>
+          <span class="floor">4. OG</span>
+        </div>
+        <span class="address">Schulstrasse 27, <span class="zip">3011</span> <span class="town">Bern</span></span>
+        <div class="price"><span class="rent">CHF 1'720.– / Monat</span></div>
+        <span class="available">Bezug: sofort</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20037">
+        <h2 class="title"><a href="/inserat/WM-20037">Charmante 5.5-Zimmer-Wohnung nahe Bahnhof</a></h2>
+        <div class="facts">
+          <span class="rooms">5.5&nbsp;Zimmer</span>
+          <span class="area">136&nbsp;m²</span>
+          <span class="floor">1. OG</span>
+        </div>
+        <span class="address">Industriestrasse 23, <span class="zip">6003</span> <span class="town">Luzern</span></span>
+        <div class="price"><span class="rent">CHF 2'990.– / Monat</span></div>
+        <span class="available">Bezug: ab 01.11.2026</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20038">
+        <h2 class="title"><a href="/inserat/WM-20038">Moderne 4.5-Zimmer-Wohnung mit Seesicht</a></h2>
+        <div class="facts">
+          <span class="rooms">4.5&nbsp;Zimmer</span>
+          <span class="area">120&nbsp;m²</span>
+          <span class="floor">1. OG</span>
+        </div>
+        <span class="address">Schulstrasse 16, <span class="zip">9000</span> <span class="town">St. Gallen</span></span>
+        <div class="price"><span class="rent">CHF 2'580.– / Monat</span></div>
+        <span class="available">Bezug: ab 01.12.2026</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20039">
+        <h2 class="title"><a href="/inserat/WM-20039">Gemütliche 2.5-Zimmer-Wohnung</a></h2>
+        <div class="facts">
+          <span class="rooms">2.5&nbsp;Zimmer</span>
+          <span class="area">64&nbsp;m²</span>
+          <span class="floor">EG</span>
+        </div>
+        <span class="address">Kirchweg 64, <span class="zip">8200</span> <span class="town">Schaffhausen</span></span>
+        <div class="price"><span class="rent">CHF 950.– / Monat</span></div>
+        <span class="available">Bezug: sofort</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20040">
+        <h2 class="title"><a href="/inserat/WM-20040">Moderne 2.5-Zimmer-Wohnung im Altbau</a></h2>
+        <div class="facts">
+          <span class="rooms">2.5&nbsp;Zimmer</span>
+          <span class="area">65&nbsp;m²</span>
+          <span class="floor">EG</span>
+        </div>
+        <span class="address">Gartenstrasse 16, <span class="zip">4051</span> <span class="town">Basel</span></span>
+        <div class="price"><span class="rent">CHF 1'540.– / Monat</span></div>
+        <span class="available">Bezug: ab 01.01.2027</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20041">
+        <h2 class="title"><a href="/inserat/WM-20041">Charmante 3.5-Zimmer-Wohnung mit Lift</a></h2>
+        <div class="facts">
+          <span class="rooms">3.5&nbsp;Zimmer</span>
+          <span class="area">87&nbsp;m²</span>
+          <span class="floor">2. OG</span>
+        </div>
+        <span class="address">Schulstrasse 83, <span class="zip">9000</span> <span class="town">St. Gallen</span></span>
+        <div class="price"><span class="rent">CHF 1'450.– / Monat</span></div>
+        <span class="available">Bezug: ab 01.11.2026</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20042">
+        <h2 class="title"><a href="/inserat/WM-20042">Moderne 1.5-Zimmer-Wohnung mit Lift</a></h2>
+        <div class="facts">
+          <span class="rooms">1.5&nbsp;Zimmer</span>
+          <span class="area">53&nbsp;m²</span>
+          <span class="floor">3. OG</span>
+        </div>
+        <span class="address">Rosenweg 93, <span class="zip">3011</span> <span class="town">Bern</span></span>
+        <div class="price"><span class="rent">CHF 1'120.– / Monat</span></div>
+        <span class="available">Bezug: ab 01.11.2026</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20043">
+        <h2 class="title"><a href="/inserat/WM-20043">Zentrale 4.5-Zimmer-Wohnung mit Gartensitzplatz</a></h2>
+        <div class="facts">
+          <span class="rooms">4.5&nbsp;Zimmer</span>
+          <span class="area">116&nbsp;m²</span>
+          <span class="floor">1. OG</span>
+        </div>
+        <span class="address">Industriestrasse 51, <span class="zip">8200</span> <span class="town">Schaffhausen</span></span>
+        <div class="price"><span class="rent">CHF 2'410.– / Monat</span></div>
+        <span class="available">Bezug: sofort</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20044">
+        <h2 class="title"><a href="/inserat/WM-20044">Helle 2.5-Zimmer-Wohnung mit Gartensitzplatz</a></h2>
+        <div class="facts">
+          <span class="rooms">2.5&nbsp;Zimmer</span>
+          <span class="area">75&nbsp;m²</span>
+          <span class="floor">2. OG</span>
+        </div>
+        <span class="address">Bahnhofstrasse 26, <span class="zip">8001</span> <span class="town">Zürich</span></span>
+        <div class="price"><span class="rent">CHF 2'210.– / Monat</span></div>
+        <span class="available">Bezug: sofort</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20045">
+        <h2 class="title"><a href="/inserat/WM-20045">Helle 1.5-Zimmer-Wohnung mit Lift</a></h2>
+        <div class="facts">
+          <span class="rooms">1.5&nbsp;Zimmer</span>
+          <span class="area">37&nbsp;m²</span>
+          <span class="floor">3. OG</span>
+        </div>
+        <span class="address">Seestrasse 28, <span class="zip">9000</span> <span class="town">St. Gallen</span></span>
+        <div class="price"><span class="rent">CHF 770.– / Monat</span></div>
+        <span class="available">Bezug: ab 01.12.2026</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20046">
+        <h2 class="title"><a href="/inserat/WM-20046">Helle 2.5-Zimmer-Wohnung mit Lift</a></h2>
+        <div class="facts">
+          <span class="rooms">2.5&nbsp;Zimmer</span>
+          <span class="area">62&nbsp;m²</span>
+          <span class="floor">EG</span>
+        </div>
+        <span class="address">Industriestrasse 117, <span class="zip">9000</span> <span class="town">St. Gallen</span></span>
+        <div class="price"><span class="rent">CHF 1'050.– / Monat</span></div>
+        <span class="available">Bezug: sofort</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20047">
+        <h2 class="title"><a href="/inserat/WM-20047">Moderne 4.5-Zimmer-Wohnung mit Lift</a></h2>
+        <div class="facts">
+          <span class="rooms">4.5&nbsp;Zimmer</span>
+          <span class="area">111&nbsp;m²</span>
+          <span class="floor">3. OG</span>
+        </div>
+        <span class="address">Gartenstrasse 68, <span class="zip">9000</span> <span class="town">St. Gallen</span></span>
+        <div class="price"><span class="rent">CHF 2'160.– / Monat</span></div>
+        <span class="available">Bezug: ab 01.02.2027</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20048">
+        <h2 class="title"><a href="/inserat/WM-20048">Ruhige 2.5-Zimmer-Wohnung im Altbau</a></h2>
+        <div class="facts">
+          <span class="rooms">2.5&nbsp;Zimmer</span>
+          <span class="area">68&nbsp;m²</span>
+          <span class="floor">2. OG</span>
+        </div>
+        <span class="address">Industriestrasse 65, <span class="zip">9000</span> <span class="town">St. Gallen</span></span>
+        <div class="price"><span class="rent">CHF 1'200.– / Monat</span></div>
+        <span class="available">Bezug: sofort</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20049">
+        <h2 class="title"><a href="/inserat/WM-20049">Renovierte 3.5-Zimmer-Wohnung mit Lift</a></h2>
+        <div class="facts">
+          <span class="rooms">3.5&nbsp;Zimmer</span>
+          <span class="area">k.A.</span>
+          <span class="floor">1. OG</span>
+        </div>
+        <span class="address">Bergstrasse 68, <span class="zip">8400</span> <span class="town">Winterthur</span></span>
+        <div class="price"><span class="rent">CHF 2'500.– / Monat</span></div>
+        <span class="available">Bezug: ab 01.12.2026</span>
+        <span class="provider">Anbieter: Privat</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20050">
+        <h2 class="title"><a href="/inserat/WM-20050">Helle 4.5-Zimmer-Wohnung nahe Bahnhof</a></h2>
+        <div class="facts">
+          <span class="rooms">4.5&nbsp;Zimmer</span>
+          <span class="area">107&nbsp;m²</span>
+          <span class="floor">1. OG</span>
+        </div>
+        <span class="address">Hauptstrasse 26, <span class="zip">8001</span> <span class="town">Zürich</span></span>
+        <div class="price"><span class="rent">CHF 3'480.– / Monat</span></div>
+        <span class="available">Bezug: ab 01.12.2026</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20051">
+        <h2 class="title"><a href="/inserat/WM-20051">Moderne 3.5-Zimmer-Wohnung mit Lift</a></h2>
+        <div class="facts">
+          <span class="rooms">3.5&nbsp;Zimmer</span>
+          <span class="area">99&nbsp;m²</span>
+          <span class="floor">1. OG</span>
+        </div>
+        <span class="address">Lindenweg 117, <span class="zip">9000</span> <span class="town">St. Gallen</span></span>
+        <div class="price"><span class="rent">CHF 1'820.– / Monat</span></div>
+        <span class="available">Bezug: sofort</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20052">
+        <h2 class="title"><a href="/inserat/WM-20052">Grosszügige 3.5-Zimmer-Wohnung mit Balkon</a></h2>
+        <div class="facts">
+          <span class="rooms">3.5&nbsp;Zimmer</span>
+          <span class="area">k.A.</span>
+          <span class="floor">4. OG</span>
+        </div>
+        <span class="address">Gartenstrasse 29, <span class="zip">8400</span> <span class="town">Winterthur</span></span>
+        <div class="price"><span class="rent">CHF 1'950.– / Monat</span></div>
+        <span class="available">Bezug: ab 01.12.2026</span>
+        <span class="provider">Anbieter: Privat</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20053">
+        <h2 class="title"><a href="/inserat/WM-20053">Zentrale 3.5-Zimmer-Wohnung</a></h2>
+        <div class="facts">
+          <span class="rooms">3.5&nbsp;Zimmer</span>
+          <span class="area">92&nbsp;m²</span>
+          <span class="floor">2. OG</span>
+        </div>
+        <span class="address">Gartenstrasse 96, <span class="zip">4051</span> <span class="town">Basel</span></span>
+        <div class="price"><span class="rent">CHF 2'400.– / Monat</span></div>
+        <span class="available">Bezug: ab 01.01.2027</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20054">
+        <h2 class="title"><a href="/inserat/WM-20054">Grosszügige 3.5-Zimmer-Wohnung mit Lift</a></h2>
+        <div class="facts">
+          <span class="rooms">3.5&nbsp;Zimmer</span>
+          <span class="area">85&nbsp;m²</span>
+          <span class="floor">2. OG</span>
+        </div>
+        <span class="address">Bergstrasse 67, <span class="zip">6003</span> <span class="town">Luzern</span></span>
+        <div class="price"><span class="rent">CHF 2'120.– / Monat</span></div>
+        <span class="available">Bezug: ab 01.02.2027</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20055">
+        <h2 class="title"><a href="/inserat/WM-20055">Grosszügige 4.5-Zimmer-Wohnung mit Lift</a></h2>
+        <div class="facts">
+          <span class="rooms">4.5&nbsp;Zimmer</span>
+          <span class="area">111&nbsp;m²</span>
+          <span class="floor">2. OG</span>
+        </div>
+        <span class="address">Bergstrasse 101, <span class="zip">4051</span> <span class="town">Basel</span></span>
+        <div class="price"><span class="rent">CHF 3'220.– / Monat</span></div>
+        <span class="available">Bezug: ab 01.02.2027</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20056">
+        <h2 class="title"><a href="/inserat/WM-20056">Gemütliche 3.5-Zimmer-Wohnung nahe Bahnhof</a></h2>
+        <div class="facts">
+          <span class="rooms">3.5&nbsp;Zimmer</span>
+          <span class="area">106&nbsp;m²</span>
+          <span class="floor">3. OG</span>
+        </div>
+        <span class="address">Seestrasse 26, <span class="zip">8400</span> <span class="town">Winterthur</span></span>
+        <div class="price"><span class="rent">CHF 2'460.– / Monat</span></div>
+        <span class="available">Bezug: ab 01.11.2026</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20057">
+        <h2 class="title"><a href="/inserat/WM-20057">Grosszügige 3.5-Zimmer-Wohnung mit Seesicht</a></h2>
+        <div class="facts">
+          <span class="rooms">3.5&nbsp;Zimmer</span>
+          <span class="area">99&nbsp;m²</span>
+          <span class="floor">4. OG</span>
+        </div>
+        <span class="address">Industriestrasse 109, <span class="zip">8001</span> <span class="town">Zürich</span></span>
+        <div class="price"><span class="rent">CHF 3'220.– / Monat</span></div>
+        <span class="available">Bezug: sofort</span>
+        <span class="provider">Anbieter: Privat</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20058">
+        <h2 class="title"><a href="/inserat/WM-20058">Renovierte 5.5-Zimmer-Wohnung</a></h2>
+        <div class="facts">
+          <span class="rooms">5.5&nbsp;Zimmer</span>
+          <span class="area">k.A.</span>
+          <span class="floor">2. OG</span>
+        </div>
+        <span class="address">Gartenstrasse 79, <span class="zip">9000</span> <span class="town">St. Gallen</span></span>
+        <div class="price"><span class="rent">CHF 2'390.– / Monat</span></div>
+        <span class="available">Bezug: ab 01.01.2027</span>
+        <span class="provider">Anbieter: Privat</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20059">
+        <h2 class="title"><a href="/inserat/WM-20059">Zentrale 4.5-Zimmer-Wohnung</a></h2>
+        <div class="facts">
+          <span class="rooms">4.5&nbsp;Zimmer</span>
+          <span class="area">112&nbsp;m²</span>
+          <span class="floor">DG</span>
+        </div>
+        <span class="address">Rosenweg 120, <span class="zip">4051</span> <span class="town">Basel</span></span>
+        <div class="price"><span class="rent">CHF 2'710.– / Monat</span></div>
+        <span class="available">Bezug: ab 01.01.2027</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+      <article class="listing" data-listing-id="WM-20060">
+        <h2 class="title"><a href="/inserat/WM-20060">Zentrale 3.5-Zimmer-Wohnung mit Lift</a></h2>
+        <div class="facts">
+          <span class="rooms">3.5&nbsp;Zimmer</span>
+          <span class="area">95&nbsp;m²</span>
+          <span class="floor">1. OG</span>
+        </div>
+        <span class="address">Industriestrasse 75, <span class="zip">8200</span> <span class="town">Schaffhausen</span></span>
+        <div class="price"><span class="rent">CHF 1'360.– / Monat</span></div>
+        <span class="available">Bezug: ab 01.11.2026</span>
+        <span class="provider">Anbieter: Agentur</span>
+      </article>
+  </section>
+  <div class="pagination">Seite: <span class="current">1</span> <a href="listings_page_2.html">2</a> <a href="listings_page_3.html">3</a></div>
+  <footer>&copy; 2026 WohnMarkt (fiktive Immobilienplattform für Unterrichtszwecke) · Alle Mieten in CHF pro Monat</footer>
+</body>
+</html>

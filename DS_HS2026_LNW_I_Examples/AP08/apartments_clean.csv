@@ -1,0 +1,181 @@
+listing_id,title,provider,zip,town,rooms,area_m2,floor,rent_chf
+WM-20001,Renovierte 5.5-Zimmer-Wohnung mit Seesicht,Agentur,8400,Winterthur,5.5,122.0,3. OG,2570.0
+WM-20002,Moderne 3.5-Zimmer-Wohnung mit Seesicht,Privat,8001,Zürich,3.5,,1. OG,3300.0
+WM-20003,Renovierte 3.5-Zimmer-Wohnung mit Lift,Privat,2502,Biel/Bienne,3.5,89.0,2. OG,18600.0
+WM-20004,Gemütliche 2.5-Zimmer-Wohnung mit Gartensitzplatz,Agentur,3011,Bern,2.5,68.0,1. OG,1550.0
+WM-20005,Renovierte 3.5-Zimmer-Wohnung mit Balkon,Privat,6003,Luzern,3.5,83.0,1. OG,2100.0
+WM-20006,Helle 3.5-Zimmer-Wohnung mit Lift,Agentur,3011,Bern,3.5,83.0,DG,1900.0
+WM-20007,Gemütliche 1.5-Zimmer-Wohnung mit Gartensitzplatz,Agentur,8200,Schaffhausen,1.5,48.0,2. OG,820.0
+WM-20008,Grosszügige 3.5-Zimmer-Wohnung mit Balkon,Privat,3011,Bern,3.5,81.0,3. OG,1740.0
+WM-20009,Renovierte 3.5-Zimmer-Wohnung mit Balkon,Agentur,6003,Luzern,3.5,89.0,1. OG,2660.0
+WM-20010,Ruhige 1.5-Zimmer-Wohnung mit Lift,Agentur,4051,Basel,1.5,45.0,1. OG,1110.0
+WM-20011,Ruhige 3.5-Zimmer-Wohnung im Altbau,Agentur,6003,Luzern,3.5,92.0,1. OG,2660.0
+WM-20012,Moderne 3.5-Zimmer-Wohnung im Altbau,Agentur,8001,Zürich,3.5,75.0,3. OG,2480.0
+WM-20013,Ruhige 3.5-Zimmer-Wohnung mit Seesicht,Privat,8200,Schaffhausen,3.5,90.0,2. OG,1600.0
+WM-20014,Gemütliche 3.5-Zimmer-Wohnung nahe Bahnhof,Agentur,3011,Bern,3.5,81.0,2. OG,1830.0
+WM-20015,Renovierte 4.5-Zimmer-Wohnung mit Seesicht,Agentur,8001,Zürich,4.5,100.0,DG,3330.0
+WM-20016,Zentrale 5.5-Zimmer-Wohnung mit Lift,Agentur,9000,St. Gallen,5.5,133.0,EG,25320.0
+WM-20017,Gemütliche 4.5-Zimmer-Wohnung im Altbau,Agentur,8400,Winterthur,4.5,115.0,3. OG,2830.0
+WM-20018,Charmante 4.5-Zimmer-Wohnung nahe Bahnhof,Privat,4051,Basel,4.5,103.0,EG,2530.0
+WM-20019,Moderne 1.5-Zimmer-Wohnung,Agentur,3011,Bern,1.5,52.0,3. OG,1270.0
+WM-20020,Ruhige 1.5-Zimmer-Wohnung nahe Bahnhof,Agentur,9000,St. Gallen,1.5,46.0,1. OG,930.0
+WM-20021,Zentrale 2.5-Zimmer-Wohnung mit Seesicht,Agentur,2502,Biel/Bienne,2.5,70.0,1. OG,14400.0
+WM-20022,Grosszügige 5.5-Zimmer-Wohnung mit Gartensitzplatz,Agentur,2502,Biel/Bienne,5.5,134.0,1. OG,2300.0
+WM-20023,Renovierte 2.5-Zimmer-Wohnung mit Seesicht,Agentur,3011,Bern,2.5,83.0,DG,1640.0
+WM-20024,Charmante 2.5-Zimmer-Wohnung mit Lift,Agentur,8001,Zürich,2.5,63.0,2. OG,1910.0
+WM-20025,Charmante 3.5-Zimmer-Wohnung nahe Bahnhof,Privat,6003,Luzern,3.5,,EG,2210.0
+WM-20026,Renovierte 3.5-Zimmer-Wohnung nahe Bahnhof,Agentur,2502,Biel/Bienne,3.5,89.0,4. OG,
+WM-20027,Renovierte 2.5-Zimmer-Wohnung mit Seesicht,Agentur,8400,Winterthur,2.5,73.0,3. OG,1610.0
+WM-20028,Gemütliche 4.5-Zimmer-Wohnung mit Gartensitzplatz,Agentur,4051,Basel,4.5,120.0,DG,3410.0
+WM-20029,Moderne 4.5-Zimmer-Wohnung nahe Bahnhof,Agentur,8001,Zürich,4.5,108.0,EG,3590.0
+WM-20030,Moderne 1.5-Zimmer-Wohnung mit Lift,Agentur,8001,Zürich,1.5,45.0,3. OG,1350.0
+WM-20031,Zentrale 3.5-Zimmer-Wohnung mit Seesicht,Agentur,6003,Luzern,3.5,81.0,1. OG,2070.0
+WM-20032,Charmante 4.5-Zimmer-Wohnung im Altbau,Agentur,6003,Luzern,4.5,113.0,2. OG,2370.0
+WM-20033,Charmante 1.5-Zimmer-Wohnung nahe Bahnhof,Agentur,2502,Biel/Bienne,1.5,51.0,3. OG,760.0
+WM-20034,Moderne 1.5-Zimmer-Wohnung mit Lift,Privat,4051,Basel,1.5,40.0,DG,
+WM-20035,Zentrale 5.5-Zimmer-Wohnung mit Balkon,Agentur,8001,Zürich,5.5,137.0,2. OG,4300.0
+WM-20036,Helle 2.5-Zimmer-Wohnung im Altbau,Agentur,3011,Bern,2.5,68.0,4. OG,1720.0
+WM-20037,Charmante 5.5-Zimmer-Wohnung nahe Bahnhof,Agentur,6003,Luzern,5.5,136.0,1. OG,2990.0
+WM-20038,Moderne 4.5-Zimmer-Wohnung mit Seesicht,Agentur,9000,St. Gallen,4.5,120.0,1. OG,2580.0
+WM-20039,Gemütliche 2.5-Zimmer-Wohnung,Agentur,8200,Schaffhausen,2.5,64.0,EG,950.0
+WM-20040,Moderne 2.5-Zimmer-Wohnung im Altbau,Agentur,4051,Basel,2.5,65.0,EG,1540.0
+WM-20041,Charmante 3.5-Zimmer-Wohnung mit Lift,Agentur,9000,St. Gallen,3.5,87.0,2. OG,1450.0
+WM-20042,Moderne 1.5-Zimmer-Wohnung mit Lift,Agentur,3011,Bern,1.5,53.0,3. OG,1120.0
+WM-20043,Zentrale 4.5-Zimmer-Wohnung mit Gartensitzplatz,Agentur,8200,Schaffhausen,4.5,116.0,1. OG,2410.0
+WM-20044,Helle 2.5-Zimmer-Wohnung mit Gartensitzplatz,Agentur,8001,Zürich,2.5,75.0,2. OG,2210.0
+WM-20045,Helle 1.5-Zimmer-Wohnung mit Lift,Agentur,9000,St. Gallen,1.5,37.0,3. OG,770.0
+WM-20046,Helle 2.5-Zimmer-Wohnung mit Lift,Agentur,9000,St. Gallen,2.5,62.0,EG,1050.0
+WM-20047,Moderne 4.5-Zimmer-Wohnung mit Lift,Agentur,9000,St. Gallen,4.5,111.0,3. OG,2160.0
+WM-20048,Ruhige 2.5-Zimmer-Wohnung im Altbau,Agentur,9000,St. Gallen,2.5,68.0,2. OG,1200.0
+WM-20049,Renovierte 3.5-Zimmer-Wohnung mit Lift,Privat,8400,Winterthur,3.5,,1. OG,2500.0
+WM-20050,Helle 4.5-Zimmer-Wohnung nahe Bahnhof,Agentur,8001,Zürich,4.5,107.0,1. OG,3480.0
+WM-20051,Moderne 3.5-Zimmer-Wohnung mit Lift,Agentur,9000,St. Gallen,3.5,99.0,1. OG,1820.0
+WM-20052,Grosszügige 3.5-Zimmer-Wohnung mit Balkon,Privat,8400,Winterthur,3.5,,4. OG,1950.0
+WM-20053,Zentrale 3.5-Zimmer-Wohnung,Agentur,4051,Basel,3.5,92.0,2. OG,2400.0
+WM-20054,Grosszügige 3.5-Zimmer-Wohnung mit Lift,Agentur,6003,Luzern,3.5,85.0,2. OG,2120.0
+WM-20055,Grosszügige 4.5-Zimmer-Wohnung mit Lift,Agentur,4051,Basel,4.5,111.0,2. OG,3220.0
+WM-20056,Gemütliche 3.5-Zimmer-Wohnung nahe Bahnhof,Agentur,8400,Winterthur,3.5,106.0,3. OG,2460.0
+WM-20057,Grosszügige 3.5-Zimmer-Wohnung mit Seesicht,Privat,8001,Zürich,3.5,99.0,4. OG,3220.0
+WM-20058,Renovierte 5.5-Zimmer-Wohnung,Privat,9000,St. Gallen,5.5,,2. OG,2390.0
+WM-20059,Zentrale 4.5-Zimmer-Wohnung,Agentur,4051,Basel,4.5,112.0,DG,2710.0
+WM-20060,Zentrale 3.5-Zimmer-Wohnung mit Lift,Agentur,8200,Schaffhausen,3.5,95.0,1. OG,1360.0
+WM-20061,Moderne 2.5-Zimmer-Wohnung nahe Bahnhof,Agentur,4051,Basel,2.5,,DG,1880.0
+WM-20062,Grosszügige 3.5-Zimmer-Wohnung mit Gartensitzplatz,Agentur,4051,Basel,3.5,92.0,1. OG,2410.0
+WM-20063,Grosszügige 3.5-Zimmer-Wohnung nahe Bahnhof,Agentur,9000,St. Gallen,3.5,91.0,EG,1610.0
+WM-20064,Grosszügige 2.5-Zimmer-Wohnung mit Lift,Agentur,8001,Zürich,2.5,71.0,EG,2040.0
+WM-20065,Ruhige 3.5-Zimmer-Wohnung mit Seesicht,Agentur,4051,Basel,3.5,86.0,EG,2630.0
+WM-20066,Gemütliche 2.5-Zimmer-Wohnung mit Seesicht,Privat,8001,Zürich,2.5,,4. OG,2330.0
+WM-20067,Ruhige 2.5-Zimmer-Wohnung nahe Bahnhof,Agentur,8001,Zürich,2.5,70.0,4. OG,2570.0
+WM-20068,Moderne 2.5-Zimmer-Wohnung mit Gartensitzplatz,Agentur,8200,Schaffhausen,2.5,71.0,2. OG,1160.0
+WM-20069,Renovierte 4.5-Zimmer-Wohnung mit Balkon,Agentur,8001,Zürich,4.5,113.0,3. OG,3740.0
+WM-20070,Ruhige 3.5-Zimmer-Wohnung mit Lift,Agentur,6003,Luzern,3.5,92.0,DG,2280.0
+WM-20071,Gemütliche 3.5-Zimmer-Wohnung mit Gartensitzplatz,Agentur,3011,Bern,3.5,85.0,1. OG,2110.0
+WM-20072,Grosszügige 3.5-Zimmer-Wohnung im Altbau,Agentur,6003,Luzern,3.5,98.0,2. OG,2370.0
+WM-20073,Zentrale 3.5-Zimmer-Wohnung,Agentur,2502,Biel/Bienne,3.5,82.0,2. OG,1330.0
+WM-20074,Helle 3.5-Zimmer-Wohnung,Privat,4051,Basel,3.5,90.0,EG,2310.0
+WM-20075,Zentrale 3.5-Zimmer-Wohnung,Privat,3011,Bern,3.5,,2. OG,1670.0
+WM-20076,Helle 2.5-Zimmer-Wohnung im Altbau,Agentur,4051,Basel,2.5,75.0,1. OG,1980.0
+WM-20077,Grosszügige 1.5-Zimmer-Wohnung mit Lift,Agentur,8001,Zürich,1.5,50.0,1. OG,1670.0
+WM-20078,Moderne 2.5-Zimmer-Wohnung mit Lift,Agentur,8400,Winterthur,2.5,80.0,2. OG,1980.0
+WM-20079,Charmante 3.5-Zimmer-Wohnung mit Seesicht,Privat,6003,Luzern,3.5,96.0,2. OG,2670.0
+WM-20080,Renovierte 4.5-Zimmer-Wohnung mit Lift,Privat,3011,Bern,4.5,,1. OG,3130.0
+WM-20081,Ruhige 2.5-Zimmer-Wohnung mit Balkon,Agentur,6003,Luzern,2.5,67.0,2. OG,1540.0
+WM-20082,Ruhige 3.5-Zimmer-Wohnung mit Balkon,Agentur,8001,Zürich,3.5,93.0,4. OG,2750.0
+WM-20083,Charmante 2.5-Zimmer-Wohnung,Agentur,3011,Bern,2.5,67.0,1. OG,1400.0
+WM-20084,Zentrale 2.5-Zimmer-Wohnung nahe Bahnhof,Agentur,3011,Bern,2.5,,1. OG,1350.0
+WM-20085,Gemütliche 2.5-Zimmer-Wohnung mit Balkon,Privat,8001,Zürich,2.5,79.0,1. OG,2570.0
+WM-20086,Moderne 3.5-Zimmer-Wohnung mit Seesicht,Agentur,2502,Biel/Bienne,3.5,95.0,4. OG,1580.0
+WM-20087,Zentrale 5.5-Zimmer-Wohnung mit Seesicht,Agentur,8001,Zürich,5.5,130.0,1. OG,3850.0
+WM-20088,Charmante 3.5-Zimmer-Wohnung,Agentur,9000,St. Gallen,3.5,84.0,1. OG,1380.0
+WM-20089,Gemütliche 3.5-Zimmer-Wohnung im Altbau,Agentur,8400,Winterthur,3.5,87.0,3. OG,2020.0
+WM-20090,Renovierte 4.5-Zimmer-Wohnung,Privat,8400,Winterthur,4.5,114.0,EG,2680.0
+WM-20091,Zentrale 4.5-Zimmer-Wohnung mit Lift,Privat,4051,Basel,4.5,107.0,EG,2530.0
+WM-20092,Zentrale 3.5-Zimmer-Wohnung mit Lift,Agentur,2502,Biel/Bienne,3.5,93.0,DG,1570.0
+WM-20093,Grosszügige 4.5-Zimmer-Wohnung nahe Bahnhof,Privat,4051,Basel,4.5,,3. OG,2980.0
+WM-20094,Charmante 3.5-Zimmer-Wohnung,Agentur,2502,Biel/Bienne,3.5,102.0,1. OG,1690.0
+WM-20095,Grosszügige 2.5-Zimmer-Wohnung,Privat,2502,Biel/Bienne,2.5,77.0,1. OG,1340.0
+WM-20096,Renovierte 3.5-Zimmer-Wohnung,Privat,8400,Winterthur,3.5,,4. OG,2180.0
+WM-20097,Gemütliche 3.5-Zimmer-Wohnung mit Balkon,Agentur,3011,Bern,3.5,89.0,2. OG,2170.0
+WM-20098,Helle 2.5-Zimmer-Wohnung,Agentur,4051,Basel,2.5,69.0,EG,1590.0
+WM-20099,Zentrale 2.5-Zimmer-Wohnung mit Gartensitzplatz,Privat,3011,Bern,2.5,73.0,4. OG,1720.0
+WM-20100,Charmante 2.5-Zimmer-Wohnung,Privat,8200,Schaffhausen,2.5,,1. OG,1080.0
+WM-20101,Charmante 4.5-Zimmer-Wohnung mit Gartensitzplatz,Privat,4051,Basel,4.5,,2. OG,2440.0
+WM-20102,Renovierte 3.5-Zimmer-Wohnung im Altbau,Agentur,4051,Basel,3.5,94.0,EG,1940.0
+WM-20103,Moderne 3.5-Zimmer-Wohnung nahe Bahnhof,Agentur,9000,St. Gallen,3.5,86.0,3. OG,1730.0
+WM-20104,Zentrale 3.5-Zimmer-Wohnung nahe Bahnhof,Agentur,9000,St. Gallen,3.5,85.0,1. OG,1390.0
+WM-20105,Moderne 3.5-Zimmer-Wohnung mit Gartensitzplatz,Agentur,8001,Zürich,3.5,96.0,EG,2880.0
+WM-20106,Ruhige 3.5-Zimmer-Wohnung mit Gartensitzplatz,Agentur,2502,Biel/Bienne,3.5,77.0,3. OG,1300.0
+WM-20107,Zentrale 2.5-Zimmer-Wohnung,Agentur,3011,Bern,2.5,65.0,1. OG,1430.0
+WM-20108,Helle 4.5-Zimmer-Wohnung mit Lift,Agentur,6003,Luzern,4.5,100.0,4. OG,2340.0
+WM-20109,Zentrale 2.5-Zimmer-Wohnung mit Balkon,Agentur,4051,Basel,2.5,74.0,EG,
+WM-20110,Zentrale 5.5-Zimmer-Wohnung mit Gartensitzplatz,Agentur,8400,Winterthur,5.5,119.0,3. OG,2820.0
+WM-20111,Charmante 2.5-Zimmer-Wohnung nahe Bahnhof,Agentur,8001,Zürich,2.5,70.0,DG,2160.0
+WM-20112,Helle 5.5-Zimmer-Wohnung,Privat,8400,Winterthur,5.5,,DG,3140.0
+WM-20113,Grosszügige 2.5-Zimmer-Wohnung mit Gartensitzplatz,Agentur,2502,Biel/Bienne,2.5,68.0,3. OG,1020.0
+WM-20114,Renovierte 4.5-Zimmer-Wohnung,Agentur,2502,Biel/Bienne,4.5,103.0,1. OG,1370.0
+WM-20115,Moderne 3.5-Zimmer-Wohnung mit Gartensitzplatz,Agentur,2502,Biel/Bienne,3.5,87.0,EG,1310.0
+WM-20116,Charmante 2.5-Zimmer-Wohnung im Altbau,Agentur,6003,Luzern,2.5,55.0,1. OG,
+WM-20117,Gemütliche 3.5-Zimmer-Wohnung nahe Bahnhof,Privat,3011,Bern,3.5,77.0,DG,1610.0
+WM-20118,Ruhige 1.5-Zimmer-Wohnung im Altbau,Agentur,6003,Luzern,1.5,63.0,EG,1510.0
+WM-20119,Charmante 3.5-Zimmer-Wohnung,Agentur,8400,Winterthur,3.5,97.0,4. OG,2140.0
+WM-20120,Helle 3.5-Zimmer-Wohnung mit Balkon,Agentur,3011,Bern,3.5,71.0,3. OG,1610.0
+WM-20121,Grosszügige 2.5-Zimmer-Wohnung mit Seesicht,Agentur,4051,Basel,2.5,75.0,3. OG,1840.0
+WM-20122,Grosszügige 3.5-Zimmer-Wohnung,Privat,3011,Bern,3.5,83.0,3. OG,1720.0
+WM-20123,Helle 2.5-Zimmer-Wohnung mit Gartensitzplatz,Agentur,4051,Basel,2.5,58.0,EG,1540.0
+WM-20124,Zentrale 4.5-Zimmer-Wohnung mit Balkon,Agentur,6003,Luzern,4.5,109.0,2. OG,2570.0
+WM-20125,Charmante 2.5-Zimmer-Wohnung im Altbau,Agentur,3011,Bern,2.5,67.0,DG,
+WM-20126,Helle 2.5-Zimmer-Wohnung mit Balkon,Privat,9000,St. Gallen,2.5,67.0,EG,1120.0
+WM-20127,Zentrale 3.5-Zimmer-Wohnung,Privat,4051,Basel,3.5,92.0,1. OG,1960.0
+WM-20128,Helle 2.5-Zimmer-Wohnung,Privat,8001,Zürich,2.5,58.0,DG,1750.0
+WM-20129,Ruhige 5.5-Zimmer-Wohnung mit Gartensitzplatz,Agentur,8001,Zürich,5.5,137.0,DG,5160.0
+WM-20130,Renovierte 1.5-Zimmer-Wohnung mit Balkon,Agentur,3011,Bern,1.5,,3. OG,1050.0
+WM-20131,Moderne 3.5-Zimmer-Wohnung mit Seesicht,Agentur,8001,Zürich,3.5,87.0,EG,2580.0
+WM-20132,Zentrale 3.5-Zimmer-Wohnung im Altbau,Privat,2502,Biel/Bienne,3.5,96.0,2. OG,1750.0
+WM-20133,Grosszügige 2.5-Zimmer-Wohnung mit Gartensitzplatz,Privat,8001,Zürich,2.5,,1. OG,1850.0
+WM-20134,Helle 4.5-Zimmer-Wohnung nahe Bahnhof,Privat,3011,Bern,4.5,114.0,2. OG,2500.0
+WM-20135,Charmante 2.5-Zimmer-Wohnung mit Seesicht,Agentur,8001,Zürich,2.5,62.0,2. OG,2140.0
+WM-20136,Grosszügige 1.5-Zimmer-Wohnung nahe Bahnhof,Agentur,4051,Basel,1.5,46.0,1. OG,1240.0
+WM-20137,Helle 4.5-Zimmer-Wohnung mit Gartensitzplatz,Agentur,2502,Biel/Bienne,4.5,112.0,2. OG,1820.0
+WM-20138,Ruhige 5.5-Zimmer-Wohnung mit Seesicht,Agentur,3011,Bern,5.5,129.0,4. OG,2770.0
+WM-20139,Gemütliche 3.5-Zimmer-Wohnung mit Seesicht,Agentur,4051,Basel,3.5,92.0,EG,2060.0
+WM-20140,Moderne 2.5-Zimmer-Wohnung mit Gartensitzplatz,Agentur,3011,Bern,2.5,64.0,3. OG,1450.0
+WM-20141,Gemütliche 3.5-Zimmer-Wohnung mit Gartensitzplatz,Privat,8400,Winterthur,3.5,78.0,1. OG,1650.0
+WM-20142,Charmante 2.5-Zimmer-Wohnung im Altbau,Agentur,8001,Zürich,2.5,61.0,4. OG,2500.0
+WM-20143,Ruhige 1.5-Zimmer-Wohnung im Altbau,Privat,4051,Basel,1.5,46.0,3. OG,1050.0
+WM-20144,Charmante 3.5-Zimmer-Wohnung im Altbau,Agentur,4051,Basel,3.5,88.0,EG,2040.0
+WM-20145,Ruhige 2.5-Zimmer-Wohnung nahe Bahnhof,Agentur,4051,Basel,2.5,64.0,EG,1600.0
+WM-20146,Grosszügige 4.5-Zimmer-Wohnung mit Balkon,Privat,8001,Zürich,4.5,115.0,3. OG,
+WM-20147,Charmante 3.5-Zimmer-Wohnung mit Lift,Agentur,6003,Luzern,3.5,88.0,1. OG,2070.0
+WM-20148,Renovierte 2.5-Zimmer-Wohnung,Agentur,8001,Zürich,2.5,64.0,4. OG,1970.0
+WM-20149,Zentrale 4.5-Zimmer-Wohnung,Agentur,3011,Bern,4.5,106.0,1. OG,2350.0
+WM-20150,Renovierte 2.5-Zimmer-Wohnung mit Lift,Privat,6003,Luzern,2.5,70.0,2. OG,1710.0
+WM-20151,Gemütliche 2.5-Zimmer-Wohnung mit Gartensitzplatz,Agentur,8400,Winterthur,2.5,67.0,4. OG,1760.0
+WM-20152,Zentrale 2.5-Zimmer-Wohnung im Altbau,Agentur,9000,St. Gallen,2.5,59.0,2. OG,1100.0
+WM-20153,Helle 2.5-Zimmer-Wohnung mit Lift,Agentur,3011,Bern,2.5,56.0,2. OG,1130.0
+WM-20154,Zentrale 3.5-Zimmer-Wohnung nahe Bahnhof,Agentur,6003,Luzern,3.5,89.0,1. OG,2140.0
+WM-20155,Moderne 3.5-Zimmer-Wohnung im Altbau,Agentur,4051,Basel,3.5,84.0,1. OG,2170.0
+WM-20156,Gemütliche 2.5-Zimmer-Wohnung nahe Bahnhof,Agentur,8001,Zürich,2.5,66.0,2. OG,1950.0
+WM-20157,Ruhige 2.5-Zimmer-Wohnung mit Seesicht,Agentur,9000,St. Gallen,2.5,73.0,2. OG,1150.0
+WM-20158,Zentrale 3.5-Zimmer-Wohnung nahe Bahnhof,Privat,8200,Schaffhausen,3.5,73.0,2. OG,1250.0
+WM-20159,Gemütliche 3.5-Zimmer-Wohnung im Altbau,Privat,3011,Bern,3.5,,1. OG,2200.0
+WM-20160,Grosszügige 5.5-Zimmer-Wohnung mit Lift,Privat,8400,Winterthur,5.5,127.0,1. OG,2850.0
+WM-20161,Gemütliche 4.5-Zimmer-Wohnung im Altbau,Privat,3011,Bern,4.5,111.0,1. OG,2550.0
+WM-20162,Helle 3.5-Zimmer-Wohnung im Altbau,Agentur,8400,Winterthur,3.5,87.0,1. OG,2320.0
+WM-20163,Renovierte 2.5-Zimmer-Wohnung mit Gartensitzplatz,Agentur,8001,Zürich,2.5,63.0,4. OG,2140.0
+WM-20164,Charmante 2.5-Zimmer-Wohnung mit Balkon,Agentur,2502,Biel/Bienne,2.5,83.0,2. OG,1350.0
+WM-20165,Charmante 2.5-Zimmer-Wohnung nahe Bahnhof,Privat,4051,Basel,2.5,,3. OG,2220.0
+WM-20166,Renovierte 4.5-Zimmer-Wohnung im Altbau,Agentur,4051,Basel,4.5,105.0,EG,2650.0
+WM-20167,Charmante 2.5-Zimmer-Wohnung nahe Bahnhof,Agentur,9000,St. Gallen,2.5,73.0,1. OG,1550.0
+WM-20168,Zentrale 2.5-Zimmer-Wohnung nahe Bahnhof,Privat,4051,Basel,2.5,,3. OG,1360.0
+WM-20169,Renovierte 3.5-Zimmer-Wohnung im Altbau,Agentur,8200,Schaffhausen,3.5,99.0,2. OG,1700.0
+WM-20170,Ruhige 4.5-Zimmer-Wohnung im Altbau,Agentur,8200,Schaffhausen,4.5,106.0,1. OG,2090.0
+WM-20171,Gemütliche 1.5-Zimmer-Wohnung mit Gartensitzplatz,Agentur,8400,Winterthur,1.5,42.0,3. OG,1050.0
+WM-20172,Gemütliche 5.5-Zimmer-Wohnung im Altbau,Agentur,4051,Basel,5.5,128.0,3. OG,2750.0
+WM-20173,Grosszügige 2.5-Zimmer-Wohnung mit Balkon,Agentur,3011,Bern,2.5,73.0,3. OG,1660.0
+WM-20174,Moderne 3.5-Zimmer-Wohnung mit Seesicht,Agentur,8400,Winterthur,3.5,89.0,2. OG,2110.0
+WM-20175,Zentrale 1.5-Zimmer-Wohnung im Altbau,Privat,8400,Winterthur,1.5,,DG,1210.0
+WM-20176,Gemütliche 3.5-Zimmer-Wohnung mit Seesicht,Privat,4051,Basel,3.5,85.0,1. OG,1840.0
+WM-20177,Zentrale 2.5-Zimmer-Wohnung nahe Bahnhof,Agentur,8001,Zürich,2.5,66.0,3. OG,
+WM-20178,Gemütliche 4.5-Zimmer-Wohnung im Altbau,Agentur,6003,Luzern,4.5,112.0,DG,2790.0
+WM-20179,Gemütliche 5.5-Zimmer-Wohnung mit Lift,Agentur,3011,Bern,5.5,138.0,2. OG,3060.0
+WM-20180,Moderne 3.5-Zimmer-Wohnung mit Balkon,Agentur,6003,Luzern,3.5,77.0,2. OG,2040.0
